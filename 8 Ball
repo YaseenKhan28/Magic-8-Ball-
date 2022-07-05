@@ -1,9 +1,9 @@
 let userName = 'Yaseen';
 userName ? console.log(`Hello, ${userName}`)
-: console.log('Hello!');
+  : console.log('Hello!');
 
-let userQuestion = 'Will there be more climate change in 2030?';
-console.log(`${username} asked if - ${userQuestion}`)
+let userQuestion = 'Will gaming PCs be replaced with gaming laptops?';
+console.log(`${userName} asked if - ${userQuestion}`)
 
 let randomNumber = Math.floor(Math.random() * 8);
 
@@ -11,31 +11,69 @@ console.log(randomNumber);
 
 let eightBall = '';
 
-switch(randomNumber) {
+switch (randomNumber) {
   case 0:
-   eightBall = 'It is certain';
-   break;
-  case 1;
-   eightBall = 'It is decidely so';
-   break;
-  case 2; 
-   eightBall = 'Reply hazy try again';
-   break;
-  case 3; 
-   eightBall = 'Cannot predict now';
-   break;
-  case 4;
-   eightBall = 'Do not count on it';
-   break;
-  case 5; 
-   eightBall = 'My sources say no';
-   break;
-  case 6; 
-   eightBall = 'Outlook not so good';
-   break;
-  case 7;
-   eightBall = 'Signs point to yes';
-   break;
+    eightBall = 'It is certain';
+    break;
+  case 1:
+    eightBall = 'It is decidely so';
+    break;
+  case 2:
+    eightBall = 'Reply hazy try again';
+    break;
+  case 3:
+    eightBall = 'Cannot predict now';
+    break;
+  case 4:
+    eightBall = 'Do not count on it';
+    break;
+  case 5:
+    eightBall = 'My sources say no';
+    break;
+  case 6:
+    eightBall = 'Outlook not so good';
+    break;
+  case 7:
+    eightBall = 'Signs point to yes';
+    break;
 }
 
-console.log(`The magic 8 ball says, ${eightBall}. `)
+console.log(`8 ball says, ${eightBall}. `)
+
+
+let userQuestion2 = 'Will AI take over the world in the next decade?';
+
+console.log(`                            
+
+${userName} asked if - ${userQuestion2}`)
+let randomNumber2 = Math.floor(Math.random() * 8);
+
+switch (randomNumber2) {
+  case 0:
+    eightBall = 'It is certain';
+    break;
+  case 1:
+    eightBall = 'It is decidely so';
+    break;
+  case 2:
+    eightBall = 'Reply hazy try again';
+    break;
+  case 3:
+    eightBall = 'Cannot predict now';
+    break;
+  case 4:
+    eightBall = 'Do not count on it';
+    break;
+  case 5:
+    eightBall = 'My sources say no';
+    break;
+  case 6:
+    eightBall = 'Outlook not so good';
+    break;
+  case 7:
+    eightBall = 'Signs point to yes';
+    break;
+}
+
+console.log(`8 ball says, ${eightBall}. `)
+
